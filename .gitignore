@@ -1,0 +1,56 @@
+# Archivos de entorno de Visual Studio
+.vs/
+.vscode/
+*.code-workspace
+
+# Archivos de construcción
+bin/
+obj/
+out/
+
+# Paquetes NuGet
+*.nupkg
+# Carpeta global de paquetes de NuGet
+packages/
+# Archivos de bloqueo de paquetes
+project.lock.json
+project.fragment.lock.json
+
+# Configuración del servidor de publicación local
+Properties/PublishProfiles/
+
+# Archivos temporales, cachés y logs
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Archivo de caché de Razor
+.rzr
+# Archivos de seguridad
+*.pfx
+*.publishsettings
+# Cachés de dependencias de paquetes
+project.json.lock
+artifacts/
+
+# Archivos específicos de Mac
+*.DS_Store
+
+# Archivos generados por el IDE de Visual Studio
+*.sln
+*.csproj.user
+*.vbproj.user
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# Archivos de IIS
+_IISExpress/
+backup/
+logs/
+
+# Archivos generados por el sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
