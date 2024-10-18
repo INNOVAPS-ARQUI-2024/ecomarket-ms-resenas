@@ -28,4 +28,4 @@ jobs:
         run: dotnet test --no-restore --verbosity normal
 
       - name: Build Docker Image
-        run: docker build -t ecomarket-servicio-resenias:dev .
+        run: docker build -t ecomarket-servicio-resenias:develop .
