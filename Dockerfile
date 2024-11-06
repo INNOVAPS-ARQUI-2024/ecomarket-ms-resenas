@@ -18,7 +18,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Expone el puerto 80
-EXPOSE 80
+EXPOSE 8085
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["dotnet", "ecomarket-servicio-resenias.dll"]
